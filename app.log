@@ -1,0 +1,59 @@
+2021-12-03 15:29:50.066  INFO 4068 --- [main] c.e.a.ActuatorDemoApplicationTests       : Starting ActuatorDemoApplicationTests on ip-172-31-15-30 with PID 4068 (started by root in /home/ubuntu/spring-boot-actuator-demo)
+2021-12-03 15:29:50.069  INFO 4068 --- [main] c.e.a.ActuatorDemoApplicationTests       : No active profile set, falling back to default profiles: default
+2021-12-03 15:29:52.571  INFO 4068 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-12-03 15:29:53.279  INFO 4068 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@40df6090, org.springframework.security.web.context.SecurityContextPersistenceFilter@4f081b5d, org.springframework.security.web.header.HeaderWriterFilter@1a8e9ed9, org.springframework.security.web.csrf.CsrfFilter@7e52a26b, org.springframework.security.web.authentication.logout.LogoutFilter@4702e7a5, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1d2fb82, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@29013ef2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6f930e0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@8c0a23f, org.springframework.security.web.session.SessionManagementFilter@2e0fdbe9, org.springframework.security.web.access.ExceptionTranslationFilter@6de004f1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@102c18e]
+2021-12-03 15:29:53.339  INFO 4068 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
+2021-12-03 15:29:53.426  INFO 4068 --- [main] c.e.a.ActuatorDemoApplicationTests       : Started ActuatorDemoApplicationTests in 3.935 seconds (JVM running for 5.44)
+2021-12-03 15:29:53.923  INFO 4068 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-12-03 15:30:50.061  INFO 4122 --- [main] c.e.a.ActuatorDemoApplication            : Starting ActuatorDemoApplication v0.0.1-SNAPSHOT on ip-172-31-15-30 with PID 4122 (/home/ubuntu/spring-boot-actuator-demo/target/actuator-demo-0.0.1-SNAPSHOT.jar started by root in /home/ubuntu/spring-boot-actuator-demo)
+2021-12-03 15:30:50.073  INFO 4122 --- [main] c.e.a.ActuatorDemoApplication            : No active profile set, falling back to default profiles: default
+2021-12-03 15:30:52.278  INFO 4122 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-03 15:30:52.296  INFO 4122 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-03 15:30:52.298  INFO 4122 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-12-03 15:30:52.374  INFO 4122 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-12-03 15:30:52.376  INFO 4122 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2151 ms
+2021-12-03 15:30:52.957  INFO 4122 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-12-03 15:30:53.516  INFO 4122 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@517bd097, org.springframework.security.web.context.SecurityContextPersistenceFilter@1bdf8190, org.springframework.security.web.header.HeaderWriterFilter@2c177f9e, org.springframework.security.web.csrf.CsrfFilter@2416a51, org.springframework.security.web.authentication.logout.LogoutFilter@11acdc30, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3bffddff, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@8a589a2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@ec0c838, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@142eef62, org.springframework.security.web.session.SessionManagementFilter@6fefce9e, org.springframework.security.web.access.ExceptionTranslationFilter@47874b25, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@21526f6c]
+2021-12-03 15:30:53.545  INFO 4122 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
+2021-12-03 15:30:53.650  INFO 4122 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-03 15:30:53.655  INFO 4122 --- [main] c.e.a.ActuatorDemoApplication            : Started ActuatorDemoApplication in 4.442 seconds (JVM running for 5.175)
+2021-12-03 15:32:43.483  INFO 4122 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-03 15:32:43.485  INFO 4122 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-03 15:32:43.509  INFO 4122 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
+2021-12-03 15:33:10.695  INFO 4122 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-12-15 09:56:54.121  INFO 9587 --- [main] c.e.a.ActuatorDemoApplicationTests       : Starting ActuatorDemoApplicationTests on ip-10-0-69-133 with PID 9587 (started by root in /home/ubuntu/testing/convert_war)
+2021-12-15 09:56:54.132  INFO 9587 --- [main] c.e.a.ActuatorDemoApplicationTests       : No active profile set, falling back to default profiles: default
+2021-12-15 09:56:59.023  INFO 9587 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-12-15 09:57:00.488  INFO 9587 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@573a078, org.springframework.security.web.context.SecurityContextPersistenceFilter@48fc0211, org.springframework.security.web.header.HeaderWriterFilter@260d48f5, org.springframework.security.web.csrf.CsrfFilter@3ce7394f, org.springframework.security.web.authentication.logout.LogoutFilter@33215ffb, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@37bda983, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@134abd78, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4d4b019e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@28f05b0c, org.springframework.security.web.session.SessionManagementFilter@68b3248a, org.springframework.security.web.access.ExceptionTranslationFilter@382d549a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@46e388ec]
+2021-12-15 09:57:00.644  INFO 9587 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
+2021-12-15 09:57:00.782  INFO 9587 --- [main] c.e.a.ActuatorDemoApplicationTests       : Started ActuatorDemoApplicationTests in 7.31 seconds (JVM running for 9.96)
+2021-12-15 09:57:01.872  INFO 9587 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-12-15 10:04:22.478  INFO 9697 --- [main] c.e.a.ActuatorDemoApplication            : Starting ActuatorDemoApplication on ip-10-0-69-133 with PID 9697 (/home/ubuntu/testing/convert_war/target/classes started by root in /home/ubuntu/testing/convert_war)
+2021-12-15 10:04:22.482  INFO 9697 --- [main] c.e.a.ActuatorDemoApplication            : No active profile set, falling back to default profiles: default
+2021-12-15 10:04:23.961  INFO 9697 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-15 10:04:23.972  INFO 9697 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-15 10:04:23.972  INFO 9697 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-12-15 10:04:24.056  INFO 9697 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-12-15 10:04:24.057  INFO 9697 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1518 ms
+2021-12-15 10:04:24.814  INFO 9697 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-12-15 10:04:25.164  INFO 9697 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2616b618, org.springframework.security.web.context.SecurityContextPersistenceFilter@66713605, org.springframework.security.web.header.HeaderWriterFilter@34f7b44f, org.springframework.security.web.csrf.CsrfFilter@6af87130, org.springframework.security.web.authentication.logout.LogoutFilter@7761e342, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@35f7969d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7d50f2a8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1fe8f5e8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@73bb573d, org.springframework.security.web.session.SessionManagementFilter@307cf964, org.springframework.security.web.access.ExceptionTranslationFilter@18a98913, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@632cf7d3]
+2021-12-15 10:04:25.186  INFO 9697 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
+2021-12-15 10:04:25.253  INFO 9697 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-12-15 10:04:25.264  INFO 9697 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-12-15 10:04:25.269 ERROR 9697 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2021-12-15 10:04:25.274  INFO 9697 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
